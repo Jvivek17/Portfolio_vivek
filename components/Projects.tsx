@@ -1,9 +1,19 @@
 "use client";
 import { motion } from "framer-motion";
-import { Code2, Server, Layout, Database, Cloud } from "lucide-react";
+import { Code2, Server, Layout, Database, Cloud, Sparkles } from "lucide-react";
 
 // Extracted exactly from your resume
 const projectsData = [
+  {
+    title: "AI Powered Learning Assistant App",
+    icon: <Sparkles className="w-6 h-6 text-yellow-400" />,
+    techStack: ["MERN", "React", "Node.js", "Express", "Gemini AI"],
+    bullets: [
+      "Engineered a responsive MERN stack application featuring a real-time AI chat interface and persistent progress tracking, utilizing React for the frontend and Node.js/Express for a scalable backend.",
+      "Leveraged Gemini AI to architect a system that autonomously generates interactive flashcards, comprehensive summaries, and customized quizzes from uploaded PDFs, improving study efficiency for users.",
+      "Implemented secure file handling and text extraction workflows to transform static documents into structured data, enabling seamless interaction between the user’s materials and the Gemini AI engine.",
+    ],
+  },
   {
     title: "AI Icon Generation SaaS Platform",
     icon: <Cloud className="w-6 h-6 text-cyan-400" />,
@@ -33,23 +43,23 @@ const projectsData = [
       "Enhanced security with Spring Security, implementing JWT-based authentication to protect user data and prevent unauthorized access.",
     ],
   },
-  {
-    title: "Inventory Management System",
-    icon: <Database className="w-6 h-6 text-emerald-400" />,
-    techStack: [
-      "Java",
-      "Spring Boot",
-      "Hibernate",
-      "PostgreSQL",
-      "Kubernetes",
-      "Gradle",
-    ],
-    bullets: [
-      "Developed a Java-based inventory tracking application using Spring Boot, Hibernate, and PostgreSQL, reducing stock discrepancies by 25% for a retail client.",
-      "Integrated RESTful APIs with third-party logistics systems, improving order processing efficiency by 20% and enabling real-time inventory updates.",
-      "Utilized Gradle for build automation and Kubernetes for container orchestration, ensuring high availability and scalability for 1,000+ daily transactions.",
-    ],
-  },
+  //   {
+  //     title: "Inventory Management System",
+  //     icon: <Database className="w-6 h-6 text-emerald-400" />,
+  //     techStack: [
+  //       "Java",
+  //       "Spring Boot",
+  //       "Hibernate",
+  //       "PostgreSQL",
+  //       "Kubernetes",
+  //       "Gradle",
+  //     ],
+  //     bullets: [
+  //       "Developed a Java-based inventory tracking application using Spring Boot, Hibernate, and PostgreSQL, reducing stock discrepancies by 25% for a retail client.",
+  //       "Integrated RESTful APIs with third-party logistics systems, improving order processing efficiency by 20% and enabling real-time inventory updates.",
+  //       "Utilized Gradle for build automation and Kubernetes for container orchestration, ensuring high availability and scalability for 1,000+ daily transactions.",
+  //     ],
+  //   },
 ];
 
 export default function Projects() {

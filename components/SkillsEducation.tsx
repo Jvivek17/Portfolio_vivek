@@ -60,7 +60,6 @@ const skillsData = [
     items: [
       "AWS (EC2, Lambda, S3, RDS, CloudWatch, API Gateway)",
       "Salesforce (Community Cloud, Lightning Platform)",
-      "GCP (Cloud Functions, BigQuery)",
     ],
   },
   {
@@ -119,6 +118,7 @@ const educationData = [
 
 const certificationsData = [
   "AWS Certified Developer - Associate",
+  "Salesforce Platform Developer",
   "Salesforce Certified Associate",
   "Salesforce Certified Platform App Builder",
   "Salesforce Certified Administrator (SCA)",

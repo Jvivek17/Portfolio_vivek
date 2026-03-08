@@ -21,7 +21,9 @@ export default function Footer() {
             <div className="p-2 rounded-full bg-slate-800/50 group-hover:bg-indigo-500/10 transition-colors">
               <Mail className="w-5 h-5" />
             </div>
-            <span className="font-medium">lakshmj2@umbc.edu</span>
+            <span className="font-medium">
+              lakshmivivekjagabathina@gmail.com
+            </span>
           </a>
 
           <a
@@ -35,7 +37,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/lakshmi-vivek-jagabathina-6b602720b/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors group"
