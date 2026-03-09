@@ -85,10 +85,14 @@ export default function Hero() {
               View Experience
               <ArrowDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
             </a>
-            <button className="px-8 py-4 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700 text-slate-200 font-semibold rounded-full transition-all backdrop-blur-md flex items-center gap-2 hover:border-indigo-500/50">
+            <a
+              href="/Lakshmi_Vivek_J_Resume.pdf"
+              download="Lakshmi_Vivek_J_Resume.pdf"
+              className="px-8 py-4 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700 text-slate-200 font-semibold rounded-full transition-all backdrop-blur-md flex items-center gap-2 hover:border-indigo-500/50"
+            >
               <FileText className="w-4 h-4" />
               Download Resume
-            </button>
+            </a>
           </div>
         </motion.div>
       )}

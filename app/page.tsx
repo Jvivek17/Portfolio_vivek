@@ -3,6 +3,7 @@ import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import SkillsEducation from "../components/SkillsEducation";
 import Footer from "../components/Footer";
+import SplashIntro from "../components/SplashIntro";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Projects />
       <SkillsEducation />
       <Footer />
+      <SplashIntro />
     </main>
   );
 }
