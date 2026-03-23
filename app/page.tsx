@@ -4,6 +4,7 @@ import Projects from "../components/Projects";
 import SkillsEducation from "../components/SkillsEducation";
 import Footer from "../components/Footer";
 import SplashIntro from "../components/SplashIntro";
+import ChatBot from "@/components/ChatBot";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SkillsEducation />
       <Footer />
       <SplashIntro />
+      <ChatBot />
     </main>
   );
 }
